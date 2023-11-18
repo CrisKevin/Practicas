@@ -1,0 +1,112 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pepe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.boton{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.fo{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.boton:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.otrosb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}  
+.obja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media (max-width:700px){
+    body{
+        width: 260px;
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 46px;
+    }
+    .calculadora{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        padding-top: 30px;
+        padding-left: 80px;
+        padding-bottom: 30px;
+        margin-left: 1px;
+        margin-right: 1px;
+        border: 4px solid white;
+        border-radius: 10px;
+    }
+    .pepe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: burlywood;
+        border: 4px solid black;
+        border-radius: 2px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .botones{
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+    

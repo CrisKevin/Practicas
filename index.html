@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es-BO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Practica 2</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Gallardo Coro Cristian Kevin</h1>
+        <p>PRACTICA N2</p>
+    </div>
+    <div class="calculadora">
+        <form>
+            <div class="obja">
+                <label>N°1</label ><br>
+                <input class="fo" type="text" id="uno" size="3" autocomplete="off">
+            </div>
+            <div class="obja">
+                <label>N°2</label> <br>
+            <input class="fo" type="text" id="dos" size="3" autocomplete="off"><br><br>
+            </div>
+            
+            <div class="botones">
+                <input class="boton" type="button" id="sum" value="SUMA">
+                <input class="boton" type="button" id="res" value="RESTA">
+                <input class="boton" type="button" id="mul" value="MULTIPLICACION">
+                <input class="boton" type="button" id="div" value="DIVISION">
+            </div>
+            <br>
+            <div class="pepe">
+                <p>RESULTADO:</p>
+                <p><span id="resultado"></span></p>
+            </div>
+            <p style="
+            display: flex;
+            justify-content: center;
+            ">IMC</p>
+            <div class="botones">
+                <div class="obj">
+                    <label>Peso:</label>
+                    <input class="fo" type="text" id="pes" size="3" autocomplete="off">
+                </div>
+                <div class="obj">
+                    <label>Altura:</label>
+                    <input class="fo" type="text" id="alt" size="3" autocomplete="off">
+                </div>
+            </div>
+            <br>
+            <div class="otrosb">
+                <label>Masculino</label>
+                <input type="radio" id="hombre"  name="sexo">
+                <label>Femenino</label>
+                <input type="radio" id="mujer" name="sexo">
+            </div>
+            <br>
+            <div class="botones">
+                <input class="boton" type="button" id="iemec" value="  IMC  ">
+            </div>
+            <br>
+            <div class="pepe">
+                <p>RESULTADO</p>
+                <p>Tu IMC es: <span id="imcr"></span></p>
+                <p>Tu estado es: <span id="letra"></span></p>
+            </div>
+        </form>
+    </div>
+    <script src="elJava.js"></script>
+</body>
+</html>
